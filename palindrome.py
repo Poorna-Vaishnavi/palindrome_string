@@ -1,8 +1,8 @@
 def ispalindrome(s,start,end):
     if start>end:
-        return True
+        return 1
     elif s[start]!=s[end]:
-        return False
+        return 0
     else:
         start+=1
         end-=1
